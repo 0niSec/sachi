@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sachi"
+version = "0.1.0"
+description = ""
+authors = ["Nick"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/0niSec/sachi"
+keywords = ["directory enumeration", "web enumeration", "web", "python", "penetration testing"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.27.0"
+rich = "^13.7.1"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
